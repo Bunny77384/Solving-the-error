@@ -54,7 +54,7 @@ This project currently has no license specified.
 
 ## Author
 
-[Sandeep231004](https://github.com/sandeep231004)
+[Bunny77384](https://github.com/Bunny77384)
 
 ## Major Updates and Fixes (Recent Changes)
 
