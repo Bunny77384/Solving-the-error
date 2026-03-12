@@ -1,4 +1,8 @@
 # --- Squat-specific Utilities ---
+import numpy as np
+from typing import Dict, List, Optional, Callable
+from collections import deque
+
 def calculate_foot_distance(landmarks: Dict[str, List[float]], normalize_by: str = "shoulder_width") -> Optional[float]:
     """
     Calculate the normalized distance between the feet (left_ankle and right_ankle).

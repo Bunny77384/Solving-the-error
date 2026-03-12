@@ -56,5 +56,12 @@ This project currently has no license specified.
 
 [Sandeep231004](https://github.com/sandeep231004)
 
+## Major Updates and Fixes (Recent Changes)
+
+- **Mediapipe Compatibility Fix**: Automated installation of stable mediapipe `0.10.9` onto Python 3.10 to fix the `module 'mediapipe' has no attribute 'solutions'` runtime error.
+- **Import Errors Resolved**: Unified `squat_analyzer_base.py` module logic and fixed the broken imports inside `__init__.py`. 
+- **Type/Syntax Errors**: Corrected `NameError: name 'Dict' is not defined` inside `pose_utils.py` by properly importing typing types.
+- **Environment Isolation**: Set up a virtual environment (`venv310`) using Python 3.10 to cleanly encapsulate dependencies such as `mediapipe` and `opencv-python`.
+
 ---
 
